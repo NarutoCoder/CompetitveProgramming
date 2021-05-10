@@ -6,12 +6,6 @@ void printPrimeNumbers(int range)
 
     for (int i = 2; i <= range; i++)
     {
-        if (i == 2)
-        {
-            cout << i << endl;
-            continue;
-        }
-
         int count = 0;
         for (int j = 2; j < i; j++)
         {
@@ -34,3 +28,4 @@ int main()
     int range;
     cin >> range;
     printPrimeNumbers(range);
+}
